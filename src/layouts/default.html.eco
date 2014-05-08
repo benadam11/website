@@ -21,19 +21,35 @@
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<!-- Typekit code here -->
+	<script type="text/javascript" src="//use.typekit.net/jqg0quq.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 <body>
 	<!--[if lt IE 7]>
 	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<header>
-		<h1><a href="<%= @site.url %>"><%- @site.title %></a></h1>
+
+	<header id="header">
+		<div class="container">
+			<div class="row clearfix">
+				<nav id="header-nav" role="navigation">
+					<ul id="header-nav-menu">
+						<li class="list-item"><a href="#">Home</a></li>
+						<li class="list-item"><a  href="#">Projects</a></li>
+						<li class="list-item"><a  href="#">Blog</a></li>
+						<li class="list-item"><a  href="#">Social</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
-	<article>
-		<%- @content %>
-	</article>
-	<footer></footer>
+
+	<%- @content %>
+
 
 	<!-- DocPad Scripts + Our Own -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

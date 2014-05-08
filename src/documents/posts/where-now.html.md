@@ -1,9 +1,13 @@
 ---
-layout: 'content'
+layout: 'blog'
 title: 'Where now?'
 ---
 
-### Not sure what to do? Here's some useful links:
+### Heyo for YAYO!
 
-- [DocPad Documentation](http://docpad.org/docs)
-- [IRC Chat Room](irc://irc.freenode.net/docpad)
+Here is some helpful information to help you carry on your merry way. Cheers and beers for years. Here is some helpful information to help you carry on your merry way. Cheers and beers for years. Here is some helpful information to help you carry on your merry way. Cheers and beers for years. Here is some helpful information to help you carry on your merry way. Cheers and beers for years.
+
+#Testing one two three
+
+##Testing Two
+Here is some helpful information to help you carry on your merry way. Cheers and beers for years.

@@ -1,0 +1,265 @@
+/* ----------------------------------------------------
+The personal portfolio website of Ben Adam -  @benadam11
+----------------------------------------------------- */
+
+/*-- scss imports --*/
+@import "reset";
+@import "mixins";
+
+/* ----------------------------------------------------
+Fonts / Colors / Variables
+----------------------------------------------------- */
+
+@mixin bodoni {font-family:"ltc-bodoni-175", serif;}
+@mixin garamond {font-family:garamond,"garamond-premier-pro-display", serif;}
+@mixin space{ padding-bottom:1em;}
+@mixin more_space {padding-bottom:2em;}
+
+$grey:#26353A;
+
+
+
+/*------------------------
+Global styles
+------------------------*/
+body{
+	color:$grey;
+  -webkit-font-smoothing: antialiased;
+  position:relative;
+}
+a{
+  color:$grey;
+  text-decoration: none;
+}
+/*Typography & Baseline Grid*/
+
+h1, h2{
+	@include bodoni;
+}
+h2,h3,h4,h5,h6,p,blockquote,a{
+	@include garamond;
+}
+
+h1 {
+  font-size: 3em; /* 48 / 16 */
+  line-height: 1em; /* 48 / 48 */
+  margin-bottom: .5em; /* 24 / 48 */
+}
+h2 {
+  font-size: 2.25em; /* 36 / 16 */
+  line-height: 1.333333333333333em; /* 48 / 36 */
+  margin-bottom: .6666666666666667em; /* 24 / 36 */
+}
+h3 {
+  font-size: 1.5em; /* 24 / 16 */
+  line-height: 1em; /* 24 / 24 */
+  margin-bottom: 1em; /* 24 / 24 */
+}
+h4 {
+  font-size: 1.3125em; /* 21 / 16 */
+  line-height: 1.142857142857143em; /* 24 / 21 */
+  margin-bottom: 1.142857142857143em; /* 24 / 21 */
+}
+h5 {
+  font-size: 1.125em; /* 18 / 16 */
+  line-height: 1.333333333333333em; /* 24 / 18 */
+  margin-bottom: 1.333333333333333em; /* 24 / 18 */
+}
+h6 {
+  font-size: 1.125em; /* 18 / 16 */
+  line-height: 1.875em; /* 30 / 16 */
+  margin-bottom: 1.875em; /* 24 / 16 */
+  font-weight: bold;
+}
+p {
+  font-size: 1.5em; /* 24 / 16 */
+  line-height: 2.250em; /* 30 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+}
+
+.column-text{
+  font-size: 1.125em; /* 18 / 16 */
+  line-height: 1.875em; /* 30 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+}
+
+blockquote{
+  font-size: 1.5em; /* 24 / 16 */
+  line-height: 2.250em; /* 30 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+  font-weight: bold;
+}
+
+blockquote:before{
+
+}
+
+blockquote:after{
+
+}
+/*------------------------
+Header / Nav
+-------------------------*/
+
+#header{
+  left:0px;
+  padding-top:4em;
+  position:relative;
+  top:0px;
+  z-index:1000;
+}
+#header-nav{
+  float:right;
+}
+@media (min-width: 20rem) and (max-width: 40rem){
+  #header-nav{float:left;}
+}
+.list-item{
+  float:left;
+  padding-left:3em;
+}
+@media (min-width: 20rem) and (max-width: 40rem){
+  .list-item:first-child{padding-left:0em;}
+}
+.list-item a{
+  font-size:1.5em;
+  text-decoration: none;
+  padding-bottom:.5em;
+}
+
+.list-item a:hover{
+  border-bottom: 1px solid $grey;
+}
+
+/*Global Elements*/
+hr{
+  width:100px;
+}
+.btn{
+  @include garamond;
+  font-style:italic;
+  font-size:1.5em;
+}
+.arrow {
+    position: relative;
+    left: 0;
+    vertical-align: middle;
+    font-size: 1em;
+    -webkit-transition: left .2s linear;
+    -moz-transition: left .2s linear;
+    -o-transition: left .2s linear;
+    transition: left .2s linear;
+}
+a:hover .arrow, button:hover .arrow {
+    left: 10px;
+    -webkit-transition: left .2s linear;
+    -moz-transition: left .2s linear;
+    -o-transition: left .2s linear;
+    transition: left .2s linear;
+}
+.arrow-left {
+    position: relative;
+    right: 0;
+    vertical-align: middle;
+    font-size: 8px;
+    -webkit-transition: right .2s linear;
+    -moz-transition: right .2s linear;
+    -o-transition: right .2s linear;
+    transition: right .2s linear;
+}
+a:hover .arrow-left, button:hover .arrow-left {
+    right: 10px;
+    -webkit-transition: right .2s linear;
+    -moz-transition: right .2s linear;
+    -o-transition: right .2s linear;
+    transition: right .2s linear;
+}
+.space{
+  @include space;
+}
+.more-space{
+  @include more_space;
+}
+
+/* -------------------
+Set Up The Grid
+--------------------*/
+
+.global-wrap{
+	position:relative;
+}
+
+/*Grid from Adam Kaplan adamkaplan.me*/
+.container {
+  margin: 0 auto;
+  max-width: 70rem;
+  height:100%;
+  width: 90%;
+  position:relative;
+}
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .column:first-child {
+    padding-left:0rem;
+  }
+
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 25%; }
+  .column.flow-opposite { float: right; }
+}
+
+/*Clearfix by @necolas*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* -------------------
+Page Layouts
+--------------------*/
+#home-page{
+  background-image:url(../assets/images/Hero_Bg.jpg);
+  @include background-cover;
+  height: 100%;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+}
+.vertical-center{
+   height: 100%;
+}
+.vertical-center:before, .main-content{
+  display: inline-block;
+  vertical-align: middle;
+}
+.vertical-center:before{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 35%;
+  vertical-align: middle;
+}
+@media (min-width: 20rem) and (max-width: 40rem){
+  .vertical-center:before{height: 13%;}
+}
+
+
+
