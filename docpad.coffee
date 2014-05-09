@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			url: "http://website.com"
+			url: "http://benadam.me"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -22,23 +22,23 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Ben Adam | UI/UX"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Ben Adam is a Designer / Front End Developer based in Tempe, AZ, focused on UI & UX.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				design, development, front, end, developer, UX, UI, copywriting, copywriter, web, HTML, CSS, Javascript
 				"""
 
 			# The website's styles
 			styles: [
 				'/vendor/normalize.css'
 				'/vendor/h5bp.css'
-				'/styles/style.css'
+				'/assets/styles/style.css'
 			]
 
 			# The website's scripts
@@ -51,7 +51,7 @@ docpadConfig = {
 
 				'/vendor/log.js'
 				'/vendor/modernizr.js'
-				'/scripts/script.js'
+				'/assets/scripts/script.js'
 			]
 
 
