@@ -53,8 +53,15 @@ docpadConfig = {
 				'/vendor/modernizr.js'
 				'/assets/scripts/script.js'
 			]
+		#----------------------------------
+		#Plugins
 
-
+		plugins:
+ 			moment:
+		    formats: [
+		      {raw: 'date', format: 'MMMM Do YYYY', formatted: 'humanDate'}
+		      {raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate'}
+		    ]
 		# -----------------------------
 		# Helper Functions
 
