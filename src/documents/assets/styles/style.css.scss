@@ -254,7 +254,7 @@ Page Layouts
 
 /*Home Page*/
 #home-page{
-  background-image:url(../assets/images/Hero_Bg.jpg);
+  background-image:url(../images/Hero_Bg.jpg);
   @include background-cover;
   height: 100%;
   width:100%;
@@ -284,7 +284,7 @@ Page Layouts
 /*Projects*/
 
 .project-hero{
-  background-image:url(../assets/images/Hero_Bg.jpg);
+  background-image:url(../images/Hero_Bg.jpg);
   @include background-cover;
   width:100%;
   min-height:37.5em;
