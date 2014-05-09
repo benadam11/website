@@ -1,9 +1,9 @@
 ---
 layout: 'default'
 ---
-<section class="project-hero" id="projects-hero">
+<section class="project-hero" id="blog-hero">
 	<div class="container">
-		<h1 class="space">Recent Projects</h1>	
+		<h1 class="space">Blog Posts</h1>	
 	</div>
 	<div class="container-inner">
 		<hr>

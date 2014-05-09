@@ -1,6 +1,7 @@
 ---
 layout: 'blog'
 title: 'Where now?'
+description: 'Here is some helpful information to help you carry on your merry way. Cheers and beers for years. Here is some helpful information to help you carry on your merry way. Cheers and beers for years.'
 ---
 
 ### Heyo for YAYO!

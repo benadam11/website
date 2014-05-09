@@ -11,7 +11,7 @@ Fonts / Colors / Variables
 ----------------------------------------------------- */
 
 @mixin bodoni {font-family:"ltc-bodoni-175", serif;}
-@mixin garamond {font-family:garamond,"garamond-premier-pro-display", serif;}
+@mixin garamond {font-family: Garamond,"garamond-premier-pro-display", Georgia, serif;}
 @mixin space{ padding-bottom:1em;}
 @mixin more_space {padding-bottom:2em;}
 
@@ -31,12 +31,15 @@ a{
   color:$grey;
   text-decoration: none;
 }
+ul{
+  list-style:none;
+}
 /*Typography & Baseline Grid*/
 
 h1, h2{
 	@include bodoni;
 }
-h2,h3,h4,h5,h6,p,blockquote,a{
+h2,h3,h4,h5,h6,p,blockquote,a,li{
 	@include garamond;
 }
 
@@ -77,8 +80,9 @@ p {
   margin-bottom: 1.5em; /* 24 / 16 */
 }
 
+
 .column-text{
-  font-size: 1.25em; /* 18 / 16 */
+  font-size: 1.5em; /* 18 / 16 */
   line-height: 1.875em; /* 30 / 16 */
   margin-bottom: 1.5em; /* 24 / 16 */
   font-weight:500;
@@ -133,6 +137,12 @@ Header / Nav
 }
 
 /*Global Elements*/
+.content{
+  position:relative;
+  height:100%;
+  background-color:#fff;
+  top:37.5em;
+}
 hr{
   width:100px;
 }
@@ -193,7 +203,14 @@ Set Up The Grid
 /*Grid from Adam Kaplan adamkaplan.me*/
 .container {
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 65rem;
+  height:100%;
+  width: 90%;
+  position:relative;
+}
+.container-inner{
+  margin:0 auto;
+  max-width:60em;
   height:100%;
   width: 90%;
   position:relative;
@@ -234,6 +251,8 @@ Set Up The Grid
 /* -------------------
 Page Layouts
 --------------------*/
+
+/*Home Page*/
 #home-page{
   background-image:url(../assets/images/Hero_Bg.jpg);
   @include background-cover;
@@ -255,12 +274,26 @@ Page Layouts
   content: '';
   display: inline-block;
   width: 0;
-  height: 35%;
+  height: 25%;
   vertical-align: middle;
 }
 @media (min-width: 20rem) and (max-width: 40rem){
   .vertical-center:before{height: 13%;}
 }
 
+/*Projects*/
 
+.project-hero{
+  background-image:url(../assets/images/Hero_Bg.jpg);
+  @include background-cover;
+  width:100%;
+  min-height:37.5em;
+  max-height:40em;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.project-hero h1{
+  padding-top:5em;
+}
 

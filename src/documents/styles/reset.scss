@@ -64,7 +64,6 @@ input:invalid, textarea:invalid  { border-radius: 1px; -moz-box-shadow: 0px 0px 
 
 
 ::-moz-selection { background: #9e89aa; color:#fff; text-shadow: none; }
-::selection  { background:#9e89aa; color:#fff; text-shadow: none; }
 a:link  { -webkit-tap-highlight-color: #9e89aa; }
 button  {  width: auto; overflow: visible; }
 .ie7 img  { -ms-interpolation-mode: bicubic; }
