@@ -34,6 +34,12 @@ $grey:#26353A;
 /*------------------------
 Global styles
 ------------------------*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body{
 	color:$grey;
   -webkit-font-smoothing: antialiased;
@@ -67,7 +73,7 @@ h2 {
 }
 h3 {
   font-size: 1.5em; /* 24 / 16 */
-  line-height: 1em; /* 24 / 24 */
+  line-height: 1.5em; /* 24 / 24 */
   margin-bottom: 1em; /* 24 / 24 */
 }
 h4 {
@@ -88,14 +94,14 @@ h6 {
 }
 p {
   font-size: 1.5em; /* 24 / 16 */
-  line-height: 2.250em; /* 30 / 16 */
-  margin-bottom: 1.5em; /* 24 / 16 */
+  line-height: 1.5em; /* 30 / 16 */
+  margin-bottom: 1.25em; /* 24 / 16 */
 }
 
 
 .column-text{
   font-size: 1.5em; /* 18 / 16 */
-  line-height: 1.875em; /* 30 / 16 */
+  line-height: 1.5em; /* 30 / 16 */
   margin-bottom: 1.5em; /* 24 / 16 */
   font-weight:500;
 }

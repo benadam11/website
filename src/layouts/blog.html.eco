@@ -1,7 +1,6 @@
 ---
 layout: 'default'
 ---
-
 <div class="container-inner">
 
 	<h1><%- @document.title or @document.name %></h1>
