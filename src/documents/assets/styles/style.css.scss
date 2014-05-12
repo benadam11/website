@@ -267,7 +267,7 @@ Page Layouts
 #home-page{
   background:url(../images/Hero_Bg.jpg);
   @include background-cover;
-  height: 100%;
+  min-height: 100%;
   width:100%;
   position:relative;
   top:0;
@@ -276,7 +276,7 @@ Page Layouts
   z-index:1;
 }
 .main-content{
-  padding-top:35%;
+  padding-top:25%;
 }
 
 /*Projects*/
