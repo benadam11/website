@@ -6,13 +6,13 @@ description: 'Building visual systems for a church building campaign and childre
 
 <section class="project-hero" id="prosport-hero">
 	<div class="container">
-		<h1 class="hero-logo"><img src="" alt=""></h1>	
+		<h1 class="hero-logo"><img src="" alt=""></h1>
 	</div>
 </section>
 <section class="content">
 	<div class="container">
 		<div class="row clearfix">
-			<div class="column third">
+			<div class="column third space">
 				<h2><%- @document.title %></h2>
 				<h3><%- @document.description %></h3>
 				<a href="../Projects_List" class="btn"><span class="arrow">&larr;</span>Back to projects</a>

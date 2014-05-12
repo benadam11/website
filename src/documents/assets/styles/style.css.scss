@@ -157,7 +157,7 @@ Header / Nav
   a:hover{
     border-bottom: 1px solid $grey;
   }
-} 
+}
 
 /*Global Elements*/
 .content{
@@ -269,12 +269,14 @@ Page Layouts
   @include background-cover;
   height: 100%;
   width:100%;
-  position:fixed;
+  position:relative;
   top:0;
   left:0;
+  margin-top: -6em;
+  z-index:1;
 }
 .main-content{
-  padding-top:15em;
+  padding-top:35%;
 }
 
 /*Projects*/
