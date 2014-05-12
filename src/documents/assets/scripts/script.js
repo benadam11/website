@@ -1,2 +1,2 @@
 /* Your scripts go here */
-$("body").hide().fadeIn(1000);
+$("body").hide().fadeIn(2000);

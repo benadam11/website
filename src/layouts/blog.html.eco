@@ -1,12 +1,14 @@
 ---
 layout: 'default'
 ---
+
 <div class="container-inner">
-<h1><%- @document.title or @document.name %></h1>
 
+	<h1><%- @document.title or @document.name %></h1>
 	<hr>
-	<h6><%- @document.date %></h6>
-
+	<%- @humanDate %>
 		<%- @content %>
-		<%- @partial('plugins--disqus.html.eco') %>
+		<%- @partial('plugins--disqus.html') %>
+		
 </div>
+

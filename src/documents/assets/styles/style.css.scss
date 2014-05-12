@@ -14,6 +14,18 @@ Fonts / Colors / Variables
 @mixin garamond {font-family: Garamond,"garamond-premier-pro-display", Georgia, serif;}
 @mixin space{ padding-bottom:1em;}
 @mixin more_space {padding-bottom:2em;}
+@mixin transition-left{
+    -webkit-transition: left .2s linear;
+    -moz-transition: left .2s linear;
+    -o-transition: left .2s linear;
+    transition: left .2s linear;
+}
+@mixin transition-right{
+    -webkit-transition: right .2s linear;
+    -moz-transition: right .2s linear;
+    -o-transition: right .2s linear;
+    transition: right .2s linear;
+}
 
 $grey:#26353A;
 
@@ -126,15 +138,16 @@ Header / Nav
 @media (min-width: 20rem) and (max-width: 40rem){
   .list-item:first-child{padding-left:0em;}
 }
-.list-item a{
-  font-size:1.5em;
-  text-decoration: none;
-  padding-bottom:.5em;
-}
-
-.list-item a:hover{
-  border-bottom: 1px solid $grey;
-}
+.list-item{
+  a {
+    font-size:1.5em;
+    text-decoration: none;
+    padding-bottom:.5em;
+  }
+  a:hover{
+    border-bottom: 1px solid $grey;
+  }
+} 
 
 /*Global Elements*/
 .content{
@@ -156,34 +169,22 @@ hr{
     left: 0;
     vertical-align: middle;
     font-size: 1em;
-    -webkit-transition: left .2s linear;
-    -moz-transition: left .2s linear;
-    -o-transition: left .2s linear;
-    transition: left .2s linear;
+    @include transition-left;
 }
 a:hover .arrow, button:hover .arrow {
     left: 10px;
-    -webkit-transition: left .2s linear;
-    -moz-transition: left .2s linear;
-    -o-transition: left .2s linear;
-    transition: left .2s linear;
+    @include transition-left;
 }
 .arrow-left {
     position: relative;
     right: 0;
     vertical-align: middle;
     font-size: 8px;
-    -webkit-transition: right .2s linear;
-    -moz-transition: right .2s linear;
-    -o-transition: right .2s linear;
-    transition: right .2s linear;
+    @include transition-right;
 }
 a:hover .arrow-left, button:hover .arrow-left {
     right: 10px;
-    -webkit-transition: right .2s linear;
-    -moz-transition: right .2s linear;
-    -o-transition: right .2s linear;
-    transition: right .2s linear;
+    @include transition-right;
 }
 .space{
   @include space;
@@ -284,7 +285,7 @@ Page Layouts
 /*Projects*/
 
 .project-hero{
-  background-image:url(../images/Hero_Bg.jpg);
+  background-image:url(../images/Projects_Hero.jpg);
   @include background-cover;
   width:100%;
   min-height:37.5em;

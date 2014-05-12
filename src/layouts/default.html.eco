@@ -39,9 +39,19 @@
 				<nav id="header-nav" role="navigation">
 					<ul id="header-nav-menu">
 						<li class="list-item"><a href="<%-@site.url%>">Home</a></li>
-						<li class="list-item"><a  href="/Projects">Projects</a></li>
+						<li class="list-item"><a  href="/Projects_List">Projects</a></li>
 						<li class="list-item"><a  href="/Blog">Blog</a></li>
-						<li class="list-item"><a  href="#">Social</a></li>
+						<li class="list-item">
+							<a  href="#">Social</a>
+							<ul class ="sub-menu">
+								<li><a href="#"></a></li>
+								<li></li>
+								<li><a href="#"></a></li>
+								<li></li>
+								<li><a href="#"></a></li>
+								<li></li>
+							</ul>
+						</li>
 					</ul>
 				</nav>
 			</div>

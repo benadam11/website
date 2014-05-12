@@ -104,7 +104,8 @@ docpadConfig = {
 		posts: ->
 			@getCollection('documents').findAllLive({relativeOutDirPath: 'posts'})
 
-
+		projects: ->
+			@getCollection('documents').findAllLive({relativeOutDirPath: 'projects'})
 	# =================================
 	# Environments
 
