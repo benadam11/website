@@ -39,6 +39,10 @@ Global styles
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+html, body
+{
+    height: 100%;
+}
 
 body{
 	color:$grey;
@@ -261,37 +265,22 @@ Page Layouts
 
 /*Home Page*/
 #home-page{
-  background-image:url(../images/Hero_Bg.jpg);
+  background:url(../images/Hero_Bg.jpg);
   @include background-cover;
   height: 100%;
   width:100%;
   position:fixed;
   top:0;
   left:0;
-  z-index: 1;
 }
-.vertical-center{
-   height: 100%;
-}
-.vertical-center:before, .main-content{
-  display: inline-block;
-  vertical-align: middle;
-}
-.vertical-center:before{
-  content: '';
-  display: inline-block;
-  width: 0;
-  height: 25%;
-  vertical-align: middle;
-}
-@media (min-width: 20rem) and (max-width: 40rem){
-  .vertical-center:before{height: 20%;}
+.main-content{
+  padding-top:15em;
 }
 
 /*Projects*/
 
 .project-hero{
-  background-image:url(../images/Projects_Hero.jpg);
+  background:url(../images/Projects_Hero.jpg);
   @include background-cover;
   width:100%;
   min-height:37.5em;
