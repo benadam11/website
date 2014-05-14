@@ -5,6 +5,7 @@ The personal portfolio website of Ben Adam -  @benadam11
 /*-- scss imports --*/
 @import "reset";
 @import "mixins";
+@import "baselinegrid";
 
 /* ----------------------------------------------------
 Fonts / Colors / Variables
@@ -47,7 +48,6 @@ html, body
 body{
 	color:$grey;
   -webkit-font-smoothing: antialiased;
-  position:relative;
 }
 a{
   color:$grey;
@@ -56,52 +56,21 @@ a{
 ul{
   list-style:none;
 }
-/*Typography & Baseline Grid*/
+
+img{
+  width:100%;
+  height:auto;
+}
+/*----------------------
+Layout & Typography
+--------------------------*/
 
 h1, h2{
 	@include bodoni;
 }
 h2,h3,h4,h5,h6,p,blockquote,a,li{
-	@include garamond;
+	font-family:Georgia;
 }
-
-h1 {
-  font-size: 3em; /* 48 / 16 */
-  line-height: 1em; /* 48 / 48 */
-  margin-bottom: .5em; /* 24 / 48 */
-}
-h2 {
-  font-size: 2.25em; /* 36 / 16 */
-  line-height: 1.333333333333333em; /* 48 / 36 */
-  margin-bottom: .6666666666666667em; /* 24 / 36 */
-}
-h3 {
-  font-size: 1.5em; /* 24 / 16 */
-  line-height: 1.5em; /* 24 / 24 */
-  margin-bottom: 1em; /* 24 / 24 */
-}
-h4 {
-  font-size: 1.3125em; /* 21 / 16 */
-  line-height: 1.142857142857143em; /* 24 / 21 */
-  margin-bottom: 1.142857142857143em; /* 24 / 21 */
-}
-h5 {
-  font-size: 1.125em; /* 18 / 16 */
-  line-height: 1.333333333333333em; /* 24 / 18 */
-  margin-bottom: 1.333333333333333em; /* 24 / 18 */
-}
-h6 {
-  font-size: 1.125em; /* 18 / 16 */
-  line-height: 1.875em; /* 30 / 16 */
-  margin-bottom: 1.875em; /* 24 / 16 */
-  font-weight: bold;
-}
-p {
-  font-size: 1.5em; /* 24 / 16 */
-  line-height: 1.5em; /* 30 / 16 */
-  margin-bottom: 1.25em; /* 24 / 16 */
-}
-
 
 .column-text{
   font-size: 1.5em; /* 18 / 16 */
@@ -129,10 +98,8 @@ Header / Nav
 -------------------------*/
 
 #header{
-  left:0px;
   padding-top:4em;
   position:relative;
-  top:0px;
   z-index:1000;
 }
 #header-nav{
@@ -162,12 +129,10 @@ Header / Nav
 /*Global Elements*/
 .content{
   position:relative;
-  height:100%;
-  background-color:#fff;
-  top:37.5em;
 }
 hr{
   width:100px;
+  display:inline-block;
 }
 .btn{
   @include garamond;
@@ -192,6 +157,13 @@ a:hover .arrow, button:hover .arrow {
     font-size: 8px;
     @include transition-right;
 }
+.arrow-right {
+    position: relative;
+    right: 0;
+    vertical-align: middle;
+    font-size: 8px;
+    @include transition-left;
+}
 a:hover .arrow-left, button:hover .arrow-left {
     right: 10px;
     @include transition-right;
@@ -201,6 +173,9 @@ a:hover .arrow-left, button:hover .arrow-left {
 }
 .more-space{
   @include more_space;
+}
+.center{
+  text-align:center;
 }
 
 /* -------------------
@@ -262,7 +237,33 @@ Set Up The Grid
 /* -------------------
 Page Layouts
 --------------------*/
+.hero{
+  background: #eef2f5;
+  overflow: hidden;
+  background-position: center;
+  width:100%;
+  min-height:600px;
+  height:auto;
+  top:-6em;
+  left:0;
+  position:relative;
+  z-index: 0;
+}
+.hero-logo{
+  margin: auto;
+  padding-left:1em;
+  padding-right:1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2
+}
+.bleed-top{
+  position:relative;
 
+}
 /*Home Page*/
 #home-page{
   background:url(../images/Hero_Bg.jpg);
@@ -270,28 +271,49 @@ Page Layouts
   min-height: 100%;
   width:100%;
   position:relative;
-  top:0;
-  left:0;
-  margin-top: -6em;
-  z-index:1;
+  top:-6em;
 }
 .main-content{
-  padding-top:25%;
+  padding-top:15em;
 }
-
+@media screen and (min-width: 1234px) and (min-height:900px){
+  .main-content{
+  padding-top:25em;
+}
+}
 /*Projects*/
 
-.project-hero{
-  background:url(../images/Projects_Hero.jpg);
-  @include background-cover;
-  width:100%;
-  min-height:37.5em;
-  max-height:40em;
-  position:absolute;
-  top:0;
-  left:0;
+#holycross-hero{
+  background:url(../images/Mountain.jpg) no-repeat;
+   @include background-cover;
+   background-position:bottom;
 }
-.project-hero h1{
-  padding-top:5em;
+#prosport-hero{
+  background:url(../images/prosport-hero.jpg) no-repeat;
+   @include background-cover;
+   background-position:bottom;
+}
+#ww-hero{
+  background:url(../images/ww-hero.jpg) no-repeat;
+  @include background-cover;
+  background-position:bottom;
+}
+/*Projects List & Blog*/
+
+#projects-hero{
+  background:url(../images/ww-hero.jpg) no-repeat;
+  @include background-cover;
+  background-position:bottom;
+}
+#blog-hero{
+  background:url(../images/ww-hero.jpg) no-repeat;
+  @include background-cover;
+  background-position:bottom;
+}
+.list-hero{
+  padding-top:6em;
+}
+.blog{
+  padding-top:6em;
 }
 

@@ -2,8 +2,8 @@
 layout: 'default'
 ---
 
-<section class="project-hero" id="projects-hero">
-	<div class="container"><h1 class="space">Recent Projects</h1></div>
+<section class ="hero" id="projects-hero">
+	<div class="container"><h1 class="list-hero space">Recent Projects</h1></div>
 	<div class="container-inner"><hr></div>
 </section>
 

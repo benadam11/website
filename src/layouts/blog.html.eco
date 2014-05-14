@@ -1,13 +1,17 @@
 ---
 layout: 'default'
 ---
-<div class="container-inner">
+<div class="blog container-inner content">
 
-	<h1><%- @document.title or @document.name %></h1>
-	<hr>
-	<%- @humanDate %>
-		<%- @content %>
-		<%- @partial('plugins--disqus.html') %>
-		
+	<div class="center more-space">
+		<h1><%- @document.title or @document.name %></h1>
+		<hr >
+		<%- @humanDate %>
+	</div>
+
+	<%- @content %>
+	
+	<%- @partial('plugins--disqus.html') %>
+
 </div>
 

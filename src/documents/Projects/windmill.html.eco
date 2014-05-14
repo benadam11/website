@@ -4,18 +4,19 @@ title: 'Windmill Winery'
 description: 'Building visual systems for a church building campaign and children’s ministry.'
 ---
 
-<section class="project-hero" id="prosport-hero">
-	<div class="container">
-		<h1 class="hero-logo"><img src="" alt=""></h1>
-	</div>
+<section class="hero" id="ww-hero">
+	<img class="hero-logo" style="max-height:80px;" src="../assets/images/ww-logo.svg">
 </section>
+
+<div class="more-space"></div>
+
 <section class="content">
 	<div class="container">
 		<div class="row clearfix">
 			<div class="column third space">
 				<h2><%- @document.title %></h2>
 				<h3><%- @document.description %></h3>
-				<a href="../Projects_List" class="btn"><span class="arrow">&larr;</span>Back to projects</a>
+				<a href="../Projects_List" class="btn"><span class="arrow right">&larr;</span>Back to projects</a>
 			</div>
 			<div class="column third">
 				<p>The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
@@ -24,5 +25,15 @@ description: 'Building visual systems for a church building campaign and childre
 				<p>The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container-inner">
+	<figure class="image">
+		<img src="../assets/images/Mountain.jpg">
+		<img src="../assets/images/Mountain.jpg">
+		<img src="../assets/images/Mountain.jpg">
+
 	</div>
 </section>
