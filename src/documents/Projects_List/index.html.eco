@@ -1,13 +1,9 @@
 ---
 layout: 'default'
 ---
-
-<section class ="hero" id="projects-hero">
-	<div class="container"><h1 class="list-hero space">Recent Projects</h1></div>
-	<div class="container-inner"><hr></div>
-</section>
-
-<section class="content container-inner">
+<section id="projects-list">
+	<div class="list-inner">
+	<h1 class="list-hero space">Recent Projects</h1>
 	<ul>
 		<% for post in @getCollection('projects').sortArray(date: -1): %>
 		<li class="more-space">
@@ -19,4 +15,5 @@ layout: 'default'
 
 		<% end %>
 	</ul>
+	</div>
 </section>

@@ -30,8 +30,6 @@ Fonts / Colors / Variables
 
 $grey:#26353A;
 
-
-
 /*------------------------
 Global styles
 ------------------------*/
@@ -61,8 +59,16 @@ img{
   width:100%;
   height:auto;
 }
+
+#footer{
+  text-align:center;
+  border-top:1px solid #D4D4D4;
+  padding-top:3em;
+  padding-bottom:2em;
+  margin-top:3em;
+}
 /*----------------------
-Layout & Typography
+Typography
 --------------------------*/
 
 h1, h2{
@@ -71,28 +77,15 @@ h1, h2{
 h2,h3,h4,h5,h6,p,blockquote,a,li{
 	font-family:Georgia;
 }
+.dropcap:first-letter { 
+  float: left;
+  font-size: 72px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+ }
 
-.column-text{
-  font-size: 1.5em; /* 18 / 16 */
-  line-height: 1.5em; /* 30 / 16 */
-  margin-bottom: 1.5em; /* 24 / 16 */
-  font-weight:500;
-}
-
-blockquote{
-  font-size: 1.5em; /* 24 / 16 */
-  line-height: 2.250em; /* 30 / 16 */
-  margin-bottom: 1.5em; /* 24 / 16 */
-  font-weight: bold;
-}
-
-blockquote:before{
-
-}
-
-blockquote:after{
-
-}
 /*------------------------
 Header / Nav
 -------------------------*/
@@ -102,9 +95,16 @@ Header / Nav
   position:relative;
   z-index:1000;
 }
-#header-nav{
+.site-logo{
+  float:left;
+  background: url(../images/logo.png)no-repeat;
+  height:42px;
+  width:42px;
+}
+#header-nav-menu{
   float:right;
 }
+
 @media (min-width: 20rem) and (max-width: 40rem){
   #header-nav{float:left;}
 }
@@ -117,7 +117,7 @@ Header / Nav
 }
 .list-item{
   a {
-    font-size:1.5em;
+    font-size:1.25em;
     text-decoration: none;
     padding-bottom:.5em;
   }
@@ -125,8 +125,10 @@ Header / Nav
     border-bottom: 1px solid $grey;
   }
 }
+/*------------------------
+Global Elements
+-------------------------*/
 
-/*Global Elements*/
 .content{
   position:relative;
 }
@@ -182,30 +184,27 @@ a:hover .arrow-left, button:hover .arrow-left {
 Set Up The Grid
 --------------------*/
 
-.global-wrap{
-	position:relative;
-}
 
 /*Grid from Adam Kaplan adamkaplan.me*/
 .container {
   margin: 0 auto;
-  max-width: 65rem;
   height:100%;
   width: 90%;
   position:relative;
 }
 .container-inner{
-  margin:0 auto;
+  @extend .container;
   max-width:60em;
-  height:100%;
-  width: 90%;
-  position:relative;
+}
+.list-inner{
+  @extend .container;
+  max-width:40em;
 }
 @media (min-width: 40rem) {
   .column {
     float: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
   }
   .column:first-child {
     padding-left:0rem;
@@ -237,6 +236,7 @@ Set Up The Grid
 /* -------------------
 Page Layouts
 --------------------*/
+
 .hero{
   background: #eef2f5;
   overflow: hidden;
@@ -244,7 +244,7 @@ Page Layouts
   width:100%;
   min-height:600px;
   height:auto;
-  top:-6em;
+  top:-8em;
   left:0;
   position:relative;
   z-index: 0;
@@ -260,28 +260,62 @@ Page Layouts
   top: 0;
   z-index: 2
 }
-.bleed-top{
-  position:relative;
 
-}
-/*Home Page*/
+/*---------Home Page------------*/
+
 #home-page{
-  background:url(../images/Hero_Bg.jpg);
+  background:url(../images/home-hero.jpg);
   @include background-cover;
-  min-height: 100%;
   width:100%;
   position:relative;
-  top:-6em;
 }
-.main-content{
-  padding-top:15em;
+#hero-copy{
+  padding-top:23em;
+  color:#fff;
 }
-@media screen and (min-width: 1234px) and (min-height:900px){
-  .main-content{
-  padding-top:25em;
+
+#hero-copy{
+  h1{
+    font-size:72px;
+  }
+  h3{
+    font-size:24px;
+  }
 }
+
+#intro{
+  padding-bottom:8em;
 }
-/*Projects*/
+
+#quote{
+  border-top:1px solid #D4D4D4;
+  border-bottom:1px solid #D4D4D4;
+  padding-top:5em;
+  padding-left:1em;
+  padding-bottom:5em;
+  padding-right:1em;
+  margin-bottom:8em;
+}
+#lists{
+  margin-bottom:6em;
+}
+#lists{
+  h2{
+    border-bottom:1px solid #D4D4D4;
+    display:inline-block;
+    padding-bottom:1em;
+    margin-bottom:1em;
+    width:90%;
+  }
+}
+#recent-projects{
+  padding-right:3em;
+}
+#recent-posts{
+  padding-left:0em;
+}
+
+/*---------Projects------------*/
 
 #holycross-hero{
   background:url(../images/Mountain.jpg) no-repeat;
@@ -301,7 +335,7 @@ Page Layouts
 /*Projects List & Blog*/
 
 #projects-hero{
-  background:url(../images/ww-hero.jpg) no-repeat;
+  background:url(../images/projects-hero.jpg) no-repeat;
   @include background-cover;
   background-position:bottom;
 }
@@ -311,9 +345,15 @@ Page Layouts
   background-position:bottom;
 }
 .list-hero{
-  padding-top:6em;
+  padding-top:3em;
+  display:inline-block;
+  padding-bottom: 1em;
+  border-bottom:1px solid #D4D4D4;
+  margin-bottom:2em;
+  width:100%;
 }
+
 .blog{
-  padding-top:6em;
+  padding-top:3em;
 }
 

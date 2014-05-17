@@ -33,7 +33,9 @@ The first way to feed your brain is to stop eating junk food. Television and Net
 Secondarily, I think that exposing your self to things that are outside of what you normally do, listen to, or read, allows your brain to form new connections that it would not have been able to make before. This is so important to the creative process, because nothing is made from scratch.
 
 Creativity always involves making combinations of preexisting elements that create something new.
+
 ###3. Creativity has to be consistent
+
 The final tip I would give you is to be consistent. There are several things that kill consistency, and the foremost is comparison. There is a story that has always resonated with me.
 
 A school teacher decided to do a simple experiment with his two pottery classes. They were beginners, and so with the first class, he gave them the task of creating one pot which was due at the end of the semester. This pot would be graded on its quality in shape and design, as well as the technique used to craft it. To the second class, he gave the task of completing one pot each day. If they were able complete a pot each day, they would receive an A in the class.

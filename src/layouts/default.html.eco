@@ -37,6 +37,7 @@
 		<div class="container">
 			<div class="row clearfix">
 				<nav id="header-nav" role="navigation">
+					<a class="site-logo" href="<%-@site.url%>"></a>
 					<ul id="header-nav-menu">
 						<li class="list-item"><a href="<%-@site.url%>">Home</a></li>
 						<li class="list-item"><a  href="/Projects_List">Projects</a></li>
@@ -60,6 +61,7 @@
 
 	<%- @content %>
 
+<%- @partial('footer.html') %>
 
 	<!-- DocPad Scripts + Our Own -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

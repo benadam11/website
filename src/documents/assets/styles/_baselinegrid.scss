@@ -30,7 +30,30 @@ h6 {
   font-weight: bold;
 }
 p {
-  font-size: 1.5em; /* 24 / 16 */
-  line-height: 1.5em; /* 30 / 16 */
-  margin-bottom: 1.25em; /* 24 / 16 */
+  font-size: 1.25em; /* 20 / 16 */
+  line-height: 2em; /* 32 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+}
+.column-text{
+  font-size: 1.25em; /* 18 / 16 */
+  line-height: 2em; /* 30 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+  font-weight:500;
+}
+
+blockquote{
+  font-size: 1.3125em; /* 21 / 16 */
+  line-height: 2.250em; /* 30 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+  font-weight: bold;
+  text-align:center;
+  margin:0 auto;
+  max-width:40em;
+}
+blockquote:before{
+  
+}
+
+blockquote:after{
+
 }

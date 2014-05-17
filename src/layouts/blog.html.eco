@@ -1,17 +1,18 @@
 ---
 layout: 'default'
 ---
-<div class="blog container-inner content">
+<section class="blog-post">
+	<div class="blog container-inner content">
 
-	<div class="center more-space">
-		<h1><%- @document.title or @document.name %></h1>
-		<hr >
-		<%- @humanDate %>
+		<div class="center more-space">
+			<h1><%- @document.title or @document.name %></h1>
+			<hr >
+			<div><a href="../Blog" class="btn"><span class="arrow">&larr;</span>Back to Blog</a></div>
+		</div>
+
+		<%- @content %>
+
+		<%- @partial('plugins--disqus.html') %>
+
 	</div>
-
-	<%- @content %>
-	
-	<%- @partial('plugins--disqus.html') %>
-
-</div>
-
+</section>

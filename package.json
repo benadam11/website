@@ -36,7 +36,8 @@
     "docpad-plugin-marked": "~2.2.0",
     "docpad-plugin-partials": "~2.9.0",
     "docpad-plugin-sass": "~2.7.1",
-    "docpad-plugin-moment": "^2.0.2"
+    "docpad-plugin-moment": "~2.0.2",
+    "docpad-plugin-ghpages": "~2.4.3"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.6.0"

@@ -1,7 +1,7 @@
 ---
 layout: 'default'
 title: 'Holy Cross Tucson'
-description: 'Building visual systems for a church building campaign and children’s ministry.'
+description: 'Building visual systems for <br> Holy Cross Tucson'
 ---
 
 <section class="hero" id="holycross-hero">
@@ -17,10 +17,10 @@ description: 'Building visual systems for a church building campaign and childre
 				<a href="../Projects_List" class="btn"><span class="arrow">&larr;</span>Back to projects</a>
 			</div>
 			<div class="column third">
-				<p>The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
 			</div>
 			<div class="column third">
-				<p>The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
 			</div>
 		</div>
 	</div>
