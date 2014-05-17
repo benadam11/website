@@ -190,6 +190,7 @@ Set Up The Grid
   margin: 0 auto;
   height:100%;
   width: 90%;
+  max-width:65rem;
   position:relative;
 }
 .container-inner{
@@ -206,10 +207,7 @@ Set Up The Grid
     padding-left: 1em;
     padding-right: 1em;
   }
-  .column:first-child {
-    padding-left:0rem;
-  }
-
+ 
   .column.full { width: 100%; }
   .column.two-thirds { width: 66.7%; }
   .column.half { width: 50%; }
