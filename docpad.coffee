@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			# url: "http://benadam.me"
+			url: "http://benadam11.github.io/Personal_Site/"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
