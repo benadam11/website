@@ -96,13 +96,14 @@ Header / Nav
   z-index:1000;
 }
 .site-logo{
-  float:left;
   background: url(../images/logo.png)no-repeat;
   height:42px;
   width:42px;
+  float:left;
 }
 #header-nav-menu{
   float:right;
+  padding-top:1em;
 }
 
 @media (min-width: 20rem) and (max-width: 40rem){
@@ -179,6 +180,9 @@ a:hover .arrow-left, button:hover .arrow-left {
 .center{
   text-align:center;
 }
+.fade-in{
+  display:none;
+}
 
 /* -------------------
 Set Up The Grid
@@ -201,11 +205,18 @@ Set Up The Grid
   @extend .container;
   max-width:40em;
 }
+.blog-container{
+  @extend .container;
+  max-width:50em;
+}
 @media (min-width: 40rem) {
   .column {
     float: left;
     padding-left: 1em;
     padding-right: 1em;
+  }
+  .column:first-child{
+    padding-left:0em;
   }
  
   .column.full { width: 100%; }

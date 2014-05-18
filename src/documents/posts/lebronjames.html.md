@@ -1,7 +1,7 @@
 ---
 layout: 'blog'
 title: 'Lebron James & Creativity'
-description: 'A guide to creativity for the left brained. '
+description: 'I grew up playing basketball. I freakin love basketball. I think there is something about the feeling of a swish that is so intoxicating. Now, in case you were wondering: I am not black. In fact, I am about as vanilla (ice) as they come. I used to be able to dunk (if you consider barely getting the ball over the rim and then pulling down as hard as you can a dunk). But I am no Lebron James.'
 ---
 I grew up playing basketball. I freakin love basketball. I think there is something about the feeling of a swish that is so intoxicating. Now, in case you were wondering: I am not black. In fact, I am about as vanilla (ice) as they come. I used to be able to dunk (if you consider barely getting the ball over the rim and then pulling down as hard as you can a dunk). But I am no Lebron James.
 

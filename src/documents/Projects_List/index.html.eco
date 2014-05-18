@@ -4,7 +4,7 @@ layout: 'default'
 <section id="projects-list">
 	<div class="list-inner">
 	<h1 class="list-hero space">Recent Projects</h1>
-	<ul>
+	<ul class="content">
 		<% for post in @getCollection('projects').sortArray(date: -1): %>
 		<li class="more-space">
 			<h2><a href="<%= post.url %>"><%- post.title or post.name %></a></h2>

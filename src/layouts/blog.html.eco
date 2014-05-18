@@ -2,7 +2,7 @@
 layout: 'default'
 ---
 <section class="blog-post">
-	<div class="blog container-inner content">
+	<div class="blog blog-container content">
 
 		<div class="center more-space">
 			<h1><%- @document.title or @document.name %></h1>

@@ -10,25 +10,25 @@ layout: 'default'
 </section>
 
 
-<section class="space" id="intro">
+<section class="space content" id="intro">
 	<div class="container-inner">
 		<div class="row clearfix">
 			<div class="column half">
 				<p class="column-text dropcap">My name is Ben, and as a relatively young professional, I have had the opportunity to work with several agencies, including one I started out of college.  While it may not have been the best idea to start a business with no industry or business experience, the two years I spent pursuing Blinktank taught me a great deal about business and using design to solve problems.</p>
 			</div>
 			<div class="column half">
-				<p class="column-text">I currently am working as a content strategist at StrongMind, which is where my passion for design, development and writing all converge. Outside of work I have a great wife, the Suns, Diamondbacks, Cardinals, ASU and a cat (obviously). I am also accepting some freelance front-end development work, so if you have a project don’t hesitate to get in touch.</p>
+				<p class="column-text">I currently am working as a content strategist at StrongMind, which is where my passion for design, development and writing all converge. Outside of work I have a great wife, the Suns, Diamondbacks, Cardinals, ASU and a cat (obviously). I am currently accepting some freelance front-end development work, so if you have a project don’t hesitate to get in touch.</p>
 			</div>
 		</div>
 		<a href="#" class="btn">Get in touch <span class="arrow">&rarr;</span> </a>
 	</div>
 </section>
 
-<section id="quote">
+<section id="quote" class="content">
 	<blockquote>“This is a great quote about how awesome I am at different stuff all the time and how I dominate faces” </blockquote>
 </section>
 
-<section id="lists">
+<section id="lists" class="content">
 	<div class="container-inner">
 		<div class="row clearfix">
 			<div class="column two-thirds"id="recent-projects">

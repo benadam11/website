@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			url: "http://benadam11.github.io/Personal_Site"
+			url: "http://benadam11.github.io/Personal-Site"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -57,14 +57,17 @@ docpadConfig = {
 		#Plugins
 
 		plugins:
- 			moment:
-		    formats: [
-		      {raw: 'date', format: 'MMMM Do YYYY', formatted: 'humanDate'}
-		      {raw: 'date', format: 'YYYY-MM-DD', formatted: 'computerDate'}
-		    ]
+ 			ghpages:
+        deployRemote: 'target'
+        deployBranch: 'master'
+
 		# -----------------------------
 		# Helper Functions
+		# Helpers
 
+    # Get the Absolute URL of a document
+    getUrl: (document) ->
+      return @site.url + (document.url or document.get?('url'))
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title
 		# we can apply that formatting here
@@ -120,7 +123,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: false
+					url: 'http://localhost:9778'
 
 
 	# =================================

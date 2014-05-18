@@ -1,7 +1,7 @@
 ---
 layout: 'blog'
 title: 'Great to Good'
-description: 'Struggling to believe that greatness is worth it.'
+description: 'I heard the door slam as my fiancee walked into the house. She had been growing increasingly frustrated with my long hours, and I am still on the phone with a business call. I knew that the ensuing conversation was not going to go well for me.A little backstory: My fiancee and I have been looking for an apartment in addition to her going through nursing school and me working two jobs ( oh, and we’re planning a wedding).'
 ---
 
 ##The Result of Long Hours and Mounting Frustration
