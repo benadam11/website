@@ -64,10 +64,10 @@ docpadConfig = {
 		# -----------------------------
 		# Helper Functions
 		# Helpers
+		# Get the Absolute URL of a document
 
-    # Get the Absolute URL of a document
-    getUrl: (document) ->
-      return @site.url + (document.url or document.get?('url'))
+  	getUrl: (document) ->
+    	return @site.url + (document.url or document.get?('url'))
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title
 		# we can apply that formatting here
