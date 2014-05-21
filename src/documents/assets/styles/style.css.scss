@@ -29,6 +29,7 @@ Fonts / Colors / Variables
 }
 
 $grey:#26353A;
+$orange:#d65c2d;
 
 /*------------------------
 Global styles
@@ -59,6 +60,12 @@ img{
   width:100%;
   height:auto;
 }
+.orange{
+  color:$orange;
+}
+.small{
+  font-size: .75em;
+}
 
 #footer{
   text-align:center;
@@ -77,7 +84,7 @@ h1, h2{
 h2,h3,h4,h5,h6,p,blockquote,a,li{
 	font-family:Georgia;
 }
-.dropcap:first-letter { 
+.dropcap:first-letter {
   float: left;
   font-size: 72px;
   line-height: 60px;
@@ -218,7 +225,7 @@ Set Up The Grid
   .column:first-child{
     padding-left:0em;
   }
- 
+
   .column.full { width: 100%; }
   .column.two-thirds { width: 66.7%; }
   .column.half { width: 50%; }
@@ -299,23 +306,27 @@ Page Layouts
 #quote{
   border-top:1px solid #D4D4D4;
   border-bottom:1px solid #D4D4D4;
-  padding-top:5em;
+  padding-top:8em;
   padding-left:1em;
-  padding-bottom:5em;
+  padding-bottom:8em;
   padding-right:1em;
   margin-bottom:8em;
 }
 #lists{
-  margin-bottom:6em;
+  margin-bottom:8em;
 }
 #lists{
   h2{
-    border-bottom:1px solid #D4D4D4;
-    display:inline-block;
     padding-bottom:1em;
     margin-bottom:1em;
-    width:90%;
   }
+}
+.line{
+  min-height:400px;
+  border-top:1px solid #D4D4D4;
+  border-bottom:1px solid #D4D4D4;
+  padding-top:4em;
+  margin-bottom: 4em;
 }
 #recent-projects{
   padding-right:3em;
@@ -359,7 +370,6 @@ Page Layouts
   padding-bottom: 1em;
   border-bottom:1px solid #D4D4D4;
   margin-bottom:2em;
-  width:100%;
 }
 
 .blog{

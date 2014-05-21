@@ -3,7 +3,7 @@ layout: 'default'
 ---
 <section id="posts-list">
 	<div class="list-inner">
-		<h1 class="list-hero space">Recent Projects</h1>
+		<h1 class="list-hero space">Blog Posts</h1>
 		<ul class="content">
 			<% for post in @getCollection('posts').sortArray(date: -1): %>
 			<li class="more-space">
