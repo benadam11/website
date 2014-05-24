@@ -1,4 +1,4 @@
-benadam11.github.io
+Personal Blog / Portfolio
 ===================
 
 Github Pages Personal Site
