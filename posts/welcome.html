@@ -18,15 +18,7 @@
 	<meta name="generator" content="DocPad v6.65.0" />
 
 	<!-- DocPad Styles + Our Own -->
-<<<<<<< HEAD
 	<link  rel="stylesheet" href="/vendor/normalize.css" /><link  rel="stylesheet" href="/vendor/h5bp.css" /><link  rel="stylesheet" href="/assets/styles/style.css" />
-=======
-	<style >html.wait {
-	cursor: wait !important;
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="/vendor/normalize.css" /><link  rel="stylesheet" href="/vendor/h5bp.css" /><link  rel="stylesheet" href="/assets/styles/style.css" />
->>>>>>> origin/gh-pages
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -45,19 +37,11 @@
 		<div class="container">
 			<div class="row clearfix">
 				<nav id="header-nav" role="navigation">
-<<<<<<< HEAD
 					<a class="site-logo" href="http://benadam11.github.io"></a>
 					<ul id="header-nav-menu">
 						<li class="list-item"><a href="http://benadam11.github.io">Home</a></li>
 						<li class="list-item"><a  href="http://benadam11.github.io/Projects_List">Projects</a></li>
 						<li class="list-item"><a  href="http://benadam11.github.io/Blog">Blog</a></li>
-=======
-					<a class="site-logo" href="http://localhost:9778"></a>
-					<ul id="header-nav-menu">
-						<li class="list-item"><a href="http://localhost:9778">Home</a></li>
-						<li class="list-item"><a  href="http://localhost:9778/Projects_List">Projects</a></li>
-						<li class="list-item"><a  href="http://localhost:9778/Blog">Blog</a></li>
->>>>>>> origin/gh-pages
 						<li class="list-item">
 							<a  href="#">Social</a>
 							<ul class ="sub-menu">
@@ -84,9 +68,16 @@
 			<div><a href="../Blog" class="btn"><span class="arrow-right">&larr;</span>Back to Blog</a></div>
 		</div>
 
-		<h2 id="heyo-for-yayo-">Heyo for YAYO!</h2>
-<p>About a year ago a buddy turned me on to this thing called <a href="docpad.org/">Docpad</a>. Essentially Docpad is a tool for building any type of web application.  It uses node.js and is balls fast and does the dirty work of compliling sass and coffeescript and lets you use templates to spit out static output.  It&#39;s amazing. </p>
-<p>About a year ago a buddy turned me on to this thing called <a href="docpad.org/">Docpad</a>. Essentially Docpad is a tool for building any type of web application.  It uses node.js and is balls fast and does the dirty work of compliling sass and coffeescript and lets you use templates to spit out static output.  It&#39;s amazing.</p>
+		<h3 id="two-thumbs-up-for-docpad">Two thumbs up for DocPad</h3>
+<p>About a year ago a buddy turned me on to this thing called <a href="http://www.docpad.org/">Docpad</a>. Essentially Docpad is a tool for building any type of web application.  It uses node.js to do the dirty work of compliling sass, coffeescript, and eco templates into static pages. Simply put ... it&#39;s amazing. </p>
+<p>My goal for this site is that it would be a place for me to grow in my skills and experiment.  I will probably change things around quite frequently and write some pretty ugly code, but all in the name of progress. For now... welcome and hopefully you will find my site enjoyable. </p>
+<p>This are a few projects that I still need to tackle</p>
+<ol>
+<li>Move page layouts into templates</li>
+<li>Add a few subtle interactions</li>
+<li>Split up my scss files into more relevant partials</li>
+</ol>
+<p>I will post the developments so stay tuned!</p>
 
 
 		<div id="disqus_thread"></div>
@@ -112,56 +103,7 @@
 <footer id="footer"><p class="column-text">Copyright Ben Adam 2014</p></footer>
 
 	<!-- DocPad Scripts + Our Own -->
-<<<<<<< HEAD
 	<!-- jQuery -->
-=======
-	<script >(function(){
-	/* Did we just livereload? */
-var log = !!(localStorage && console && console.log && true);
-if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
-	localStorage.removeItem('/docpad-livereload/reloaded');
-	console.log('LiveReload completed at', new Date())
-}
-
-/* Listen for the regenerated event and perform a reload of the page when the event occurs */
-var listen = function(){
-	var primus = new Primus('/docpad-livereload');
-	primus.on('data', function(data){
-		if ( data && data.message ) {
-			if ( data.message === 'generateBefore' ) {
-				if ( log ) {
-					console.log('LiveReload started at', new Date());
-				}
-				if ( typeof document.getElementsByTagName !== 'undefined' ) {
-	document.getElementsByTagName('html')[0].className += ' wait';
-}
-			}
-			else if ( data.message === 'generateAfter' ) {
-				if ( log ) {
-					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
-				}
-				document.location.reload();
-			}
-		}
-	});
-};
-	/* Inject socket into our page */
-var inject = function(){
-	var t = document.createElement('script');
-	t.type = 'text/javascript';
-	t.async = 'async';
-	t.src = '/primus/primus.js';
-	t.onload = listen;
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(t, s);
-};
-	if ( typeof Primus !== 'undefined' ) {
-		listen();
-	} else {
-		inject();
-	}
-})();</script><!-- jQuery -->
->>>>>>> origin/gh-pages
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/vendor/jquery.js"><\/script>')</script><script defer="defer"  src="/vendor/log.js"></script><script defer="defer"  src="/vendor/modernizr.js"></script><script defer="defer"  src="/assets/scripts/script.js"></script>
 </body>
