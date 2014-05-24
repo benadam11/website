@@ -1,7 +1,8 @@
 ---
 layout: 'default'
 title: 'Holy Cross Tucson'
-description: 'Building visual systems for <br> Holy Cross Tucson'
+description: 'Building visual systems for Holy Cross Tucson'
+roles: ' Roles: Branding / Illustration / Print Materials'
 ---
 
 <section class="hero" id="holycross-hero">
@@ -13,24 +14,23 @@ description: 'Building visual systems for <br> Holy Cross Tucson'
 		<div class="row clearfix">
 			<div class="column third space">
 				<h2><%- @document.title %></h2>
-				<h3><%- @document.description %></h3>
-				<a href="../Projects_List" class="btn"><span class="arrow">&larr;</span>Back to projects</a>
+				<h6><%- @document.roles %></h6>
+				<a href="../Projects_List" class="btn"><span class="arrow-right">&larr;</span>Back to projects</a>
 			</div>
 			<div class="column third">
-				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">Holy Cross Tucson needed a logo and print materials for a finance campaign, as well as branding, print materials, and a wall graphic for their children's ministry.  I developed a logo and color pallete for their capital campaign and used those assets in the branding of the children's ministry.</p>
 			</div>
 			<div class="column third">
-				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text"><a href="https://twitter.com/PeteRehrmann" class="orange" target="_blank">Pete</a>, the lead pastor at Holy Cross, communicated that he wanted to represent their ministry in a fresh new way, with "clean" design. The logo for the campaign is a litteral translation of their tagline "A church to call home" with an illustation of the building and the shadow of a home. </p>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section class="images">
 	<div class="container-inner">
-	<figure class="image">
-		<img style="width:100%; height:auto;"src="../assets/images/Mountain.jpg">
-		<img style="width:100%; height:auto;"src="../assets/images/Mountain.jpg">
-		<img style="width:100%; height:auto;"src="../assets/images/Mountain.jpg">
-</figure>
+			<img style="width:100%; height:auto;"src="../assets/images/HC_Icons.jpg">
+			<img style="width:100%; height:auto;"src="../assets/images/HC_1.jpg">
+			<img style="width:100%; height:auto;"src="../assets/images/HC_2.jpg">
+			<img style="width:100%; height:auto;"src="../assets/images/HC_Booklet.jpg">
 	</div>
 </section>

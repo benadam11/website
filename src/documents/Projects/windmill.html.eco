@@ -2,6 +2,7 @@
 layout: 'default'
 title: 'Windmill Winery'
 description: 'UI & UX design for Windmill Winery'
+roles: 'Roles: UI / UX / Art Direction'
 ---
 
 <section class="hero" id="ww-hero">
@@ -15,25 +16,24 @@ description: 'UI & UX design for Windmill Winery'
 		<div class="row clearfix">
 			<div class="column third space">
 				<h2><%- @document.title %></h2>
-				<h3><%- @document.description %></h3>
-				<a href="../Projects_List" class="btn"><span class="arrow right">&larr;</span>Back to projects</a>
+				<h3><%- @document.roles %></h3>
+				<a href="../Projects_List" class="btn"><span class="arrow-right">&larr;</span>Back to projects</a>
 			</div>
 			<div class="column third">
-				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">Windmill Winery was one of the last clients that I worked with as a part of Blinktank. My partner Caleb lead the charge with the branding and icons, while I tackled the web experience.  Caleb's feedback and suggestions were a critical part of this project. The web assets were the final deliverable of a larger branding project.</p>
 			</div>
 			<div class="column third">
-				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">Windmill's old site was clunky and difficult to navigate, so organizing the information into a logical flow was the primary challenge of this project.  Because they are in the wedding industry, we used large imagery liberally throughout the site to tell the story of their brand and differentiate them from their competitors. </p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section>
+<section class="images">
 	<div class="container-inner">
-	<figure class="image">
-		<img src="../assets/images/Mountain.jpg">
-		<img src="../assets/images/Mountain.jpg">
-		<img src="../assets/images/Mountain.jpg">
-
+		<img src="../assets/images/WW_Homescreen.jpg">
+		<img src="../assets/images/WW_Layout.jpg">
+		<img src="../assets/images/WW_iPad.jpg">
+		<img src="../assets/images/WW_Mac.jpg">
 	</div>
 </section>

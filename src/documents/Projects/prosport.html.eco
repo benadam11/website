@@ -2,6 +2,7 @@
 layout: 'default'
 title: 'Prosport Management'
 description: 'Brand identity development for Prosport Management.'
+roles: 'Roles: Branding / Print Materials'
 ---
 <section class="hero" id="prosport-hero">
 	<img class="hero-logo" style ="max-height:40px;"src="../assets/images/prosport-logo.svg">
@@ -14,26 +15,25 @@ description: 'Brand identity development for Prosport Management.'
 		<div class="row clearfix">
 			<div class="column third space">
 				<h2><%- @document.title %></h2>
-				<h6><%- @document.description %></h6>
+				<h6><%- @document.roles %></h6>
 				<a href="../Projects_List" class="btn"><span class="arrow-right">&larr;</span>Back to projects</a>
 			</div>
 			<div class="column third">
-				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">Prosport Management is a sports agency that represents well known golfers including Bubba Watson (who just won the masters), Aaron Badley, and Goeff Ogilvy. Our goal was to create a sophisticated look for their company, that was flexible enough for them to expand their business to other sports.</p>
 			</div>
 			<div class="column third">
-				<p class="column-text">The skills we develop throughout our careers are means to an end. For some, it is to create a legacy, for others it is the means to a paycheck. For me, all the skills that I have developed over the years have been a means to communicate well with others. </p>
+				<p class="column-text">I developed a custom Sans Serif logotype based off of Edmondsans. I used a grey scale for their primary colors, and a green secondary pallete to be used on their website. I also developed a brand guidlines, business cards, and letterhead for Prosport in time for the masters.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section>
+<section class="images">
 	<div class="container-inner">
-		<figure class="image">
-			<img style="width:100%; height:auto;"src="../assets/images/Mountain.jpg">
-			<img style="width:100%; height:auto;"src="../assets/images/Mountain.jpg">
-			<img style="width:100%; height:auto;"src="../assets/images/Mountain.jpg">
-		</figure>
+			<img style="width:100%; height:auto;"src="../assets/images/PS_Logo.jpg">
+			<img style="width:100%; height:auto;"src="../assets/images/PS_Colors.jpg">
+			<img style="width:100%; height:auto;"src="../assets/images/PS_Typography.jpg">
+			<img style="width:100%; height:auto;"src="../assets/images/PS_BCards.jpg">
 	</div>
 </section>
 

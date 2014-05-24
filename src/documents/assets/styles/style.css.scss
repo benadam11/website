@@ -102,11 +102,17 @@ Header / Nav
   position:relative;
   z-index:1000;
 }
+@media (min-width: 20rem) and (max-width: 40rem){
+  #header{text-align:left;}
+}
 .site-logo{
   background: url(../images/logo.png)no-repeat;
   height:42px;
   width:42px;
   float:left;
+}
+@media (min-width: 20rem) and (max-width: 40rem){
+  .site-logo{display:none;}
 }
 #header-nav-menu{
   float:right;
@@ -114,7 +120,7 @@ Header / Nav
 }
 
 @media (min-width: 20rem) and (max-width: 40rem){
-  #header-nav{float:left;}
+  #header-nav{display:inline-block;}
 }
 .list-item{
   float:left;
@@ -160,19 +166,23 @@ a:hover .arrow, button:hover .arrow {
     left: 10px;
     @include transition-left;
 }
+a:hover .arrow-right, button:hover .arrow-right {
+    right: 10px;
+    @include transition-right;
+}
 .arrow-left {
     position: relative;
     right: 0;
     vertical-align: middle;
-    font-size: 8px;
+    font-size: 1em;
     @include transition-right;
 }
 .arrow-right {
     position: relative;
     right: 0;
     vertical-align: middle;
-    font-size: 8px;
-    @include transition-left;
+    font-size: 1em;
+    @include transition-right;
 }
 a:hover .arrow-left, button:hover .arrow-left {
     right: 10px;
@@ -372,7 +382,12 @@ Page Layouts
   margin-bottom:2em;
 }
 
+/*-------------Blog--------------*/
 .blog{
-  padding-top:3em;
+  padding-top:6em;
+}
+.images{
+  padding-top:6em;
+  padding-bottom:3em;
 }
 
