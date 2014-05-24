@@ -122,7 +122,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: 'http://localhost:9778'
+					url: false
 
 
 	# =================================
