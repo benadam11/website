@@ -56,8 +56,9 @@ docpadConfig = {
 		#----------------------------------
 		#Plugins
 
+		
 		plugins:
-	 		ghpages:
+	    ghpages:
         deployRemote: 'target'
         deployBranch: 'master'
 
@@ -109,7 +110,7 @@ docpadConfig = {
 			@getCollection('documents').findAllLive({relativeOutDirPath: 'posts'})
 
 		projects: ->
-			@getCollection('documents').findAllLive({relativeOutDirPath: 'projects'})
+			@getCollection('documents').findAllLive({relativeOutDirPath: 'Projects'})
 	# =================================
 	# Environments
 
