@@ -55,12 +55,10 @@ docpadConfig = {
 			]
 		#----------------------------------
 		#Plugins
-
-		
 		plugins:
 	    ghpages:
-        deployRemote: 'target'
-        deployBranch: 'master'
+	      deployRemote: 'target'
+	      deployBranch: 'master'
 
 		# -----------------------------
 		# Helper Functions
@@ -68,7 +66,7 @@ docpadConfig = {
 
     # Get the Absolute URL of a document
     getUrl: (document) ->
-      	return @site.url + (document.url or document.get?('url'))
+      return @site.url + (document.url or document.get?('url'))
 
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title
