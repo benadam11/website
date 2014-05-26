@@ -25,7 +25,7 @@ layout: 'default'
 </section>
 
 <section id="quote" class="content">
-	<div class="container">
+	<div class="blog-container">
 		<blockquote>“Ben has a unique curiosity to learn new things, a distinct desire to create the best possible product, and is a natural leader on our team.”</blockquote>
 	</div>
 </section>

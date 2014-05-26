@@ -1,15 +1,11 @@
 ---
 layout: 'blog'
-title: 'Lebron James & Creativity'
-description: 'I grew up playing basketball. I freakin love basketball. I think there is something about the feeling of a swish that is so intoxicating. Now, in case you were wondering: I am not black. In fact, I am about as vanilla (ice) as they come. I used to be able to dunk (if you consider barely getting the ball over the rim and then pulling down as hard as you can a dunk). But I am no Lebron James.'
+title: 'Redefining Creativity'
+description: 'If I were to take a poll, I am guessing that most people would not consider themselves to be a creative person (and undoubtedly some of you “creatives” are not nearly as creative as you think you are). So I want to start a new conversation about creativity and that begins with a new definition of creativity.'
 ---
-I grew up playing basketball. I freakin love basketball. I think there is something about the feeling of a swish that is so intoxicating. Now, in case you were wondering: I am not black. In fact, I am about as vanilla (ice) as they come. I used to be able to dunk (if you consider barely getting the ball over the rim and then pulling down as hard as you can a dunk). But I am no Lebron James.
 
-Here are the facts: Lebron James is 6 ft.8 and has a 44in vertical,and I am 6 ft1 and sometimes when I jump really high you can slip a piece of paper underneath my feet.
 
-A lot of times, when it comes to creativity, we end up comparing ourselves to “Lebron James’” and never pick up a basketball. For most of my life, I did not think I was creative, and I really struggled to try new things and grow creatively. Our society’s loss of creativity is tragic, because the alternative to creativity is consumption. We live in a society that teaches us to consume, rather than to create. I believe that it is critically important for all people to grow in their creative ability,because through creative effort, this world truly becomes a better place.
-
-Redefining Creativity
+###Redefining Creativity
 If I were to take a poll, I am guessing that most people would not consider themselves to be a creative person (and undoubtedly some of you “creatives” are not nearly as creative as you think you are). So I want to start a new conversation about creativity and that begins with a new definition of creativity. Here is how I define it:
 
 Creativity is simply making something without following instructions.
@@ -17,7 +13,7 @@ That’s simple enough right? Just make something, but you can’t look up how t
 
 Well since I am a left-brained, person who has really struggled with considering myself to be creative:here are some practical tips for growing in your creative abilities (yes it’s a list).
 
-###1. Creativity is intentional.
+####1. Creativity is intentional.
 So you have decided that you want to be creative, so now what? Well, the first step in growing in your ability to think creatively is to just do it. And usually we don’t do these things (even if we desire to do them) unless we set aside time to pursue them.
 
 There is a myth that a lot of people buy into that creative people are simply more inspired than others. There is a phrase that I have found to be very true.
@@ -25,7 +21,7 @@ There is a myth that a lot of people buy into that creative people are simply mo
 Ideas are like sex, but executing them is like raising the baby.
 Everyone has ideas. You have to start thinking of creativity as something that is bigger than art (although art is highly creative). Creativity is expressed in cooking, in planning a date, in financing a business. But a lot of times, to see our ideas come to reality, it takes a lot of work. And for me, that doesn’t happen unless I set aside time to do it.
 
-###2. Feed yourself creatively.
+####2. Feed yourself creatively.
 Growing in creativity is like working out. Talk to any crossfit bro about what they eat and chances are they are pretty intense with their (paleo) diet. Your brain is a muscle and it needs good food in order to get quality output.
 
 The first way to feed your brain is to stop eating junk food. Television and Netflix are amazing, and if I am being honest I am a binger too (Legend of Korra #allday). But these are purely consumptive forms of entertainment. Reading on the other hand (especially fiction), forces your brain to think creatively because you have to imagine what the characters look like, and you have to think about and process information on a deeper level.
@@ -34,7 +30,7 @@ Secondarily, I think that exposing your self to things that are outside of what 
 
 Creativity always involves making combinations of preexisting elements that create something new.
 
-###3. Creativity has to be consistent
+####3. Creativity has to be consistent
 
 The final tip I would give you is to be consistent. There are several things that kill consistency, and the foremost is comparison. There is a story that has always resonated with me.
 

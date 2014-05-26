@@ -1,3 +1,20 @@
+@mixin bodoni {font-family:"ltc-bodoni-175", serif;}
+@mixin garamond {font-family: Garamond,"garamond-premier-pro-display", Georgia, serif;}
+@mixin space{ padding-bottom:1em;}
+@mixin more_space {padding-bottom:2em;}
+@mixin transition-left{
+    -webkit-transition: left .2s linear;
+    -moz-transition: left .2s linear;
+    -o-transition: left .2s linear;
+    transition: left .2s linear;
+}
+@mixin transition-right{
+    -webkit-transition: right .2s linear;
+    -moz-transition: right .2s linear;
+    -o-transition: right .2s linear;
+    transition: right .2s linear;
+}
+
 
 @mixin background-size($width, $height) {
   -webkit-background-size: $width $height;

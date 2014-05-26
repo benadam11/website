@@ -1,0 +1,56 @@
+/*-------------------------------
+Layout & Containers
+---------------------------------*/
+
+/*Grid from Adam Kaplan adamkaplan.me*/
+.container {
+  margin: 0 auto;
+  height:100%;
+  width: 90%;
+  max-width:65rem;
+  position:relative;
+}
+.container-inner{
+  @extend .container;
+  max-width:60em;
+}
+.list-inner{
+  @extend .container;
+  max-width:40em;
+}
+.blog-container{
+  @extend .container;
+  max-width:50em;
+}
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .column:first-child{
+    padding-left:0em;
+  }
+
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 25%; }
+  .column.flow-opposite { float: right; }
+}
+
+/*Clearfix by @necolas*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}

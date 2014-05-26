@@ -5,35 +5,13 @@ The personal portfolio website of Ben Adam -  @benadam11
 /*-- scss imports --*/
 @import "reset";
 @import "mixins";
-@import "baselinegrid";
-
-/* ----------------------------------------------------
-Fonts / Colors / Variables
------------------------------------------------------ */
-
-@mixin bodoni {font-family:"ltc-bodoni-175", serif;}
-@mixin garamond {font-family: Garamond,"garamond-premier-pro-display", Georgia, serif;}
-@mixin space{ padding-bottom:1em;}
-@mixin more_space {padding-bottom:2em;}
-@mixin transition-left{
-    -webkit-transition: left .2s linear;
-    -moz-transition: left .2s linear;
-    -o-transition: left .2s linear;
-    transition: left .2s linear;
-}
-@mixin transition-right{
-    -webkit-transition: right .2s linear;
-    -moz-transition: right .2s linear;
-    -o-transition: right .2s linear;
-    transition: right .2s linear;
-}
-
-$grey:#26353A;
-$orange:#d65c2d;
 
 /*------------------------
 Global styles
 ------------------------*/
+$grey:#26353A;
+$orange:#d65c2d;
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -43,7 +21,6 @@ html, body
 {
     height: 100%;
 }
-
 body{
 	color:$grey;
   -webkit-font-smoothing: antialiased;
@@ -74,24 +51,9 @@ img{
   padding-bottom:2em;
   margin-top:3em;
 }
-/*----------------------
-Typography
---------------------------*/
 
-h1, h2{
-	@include bodoni;
-}
-h2,h3,h4,h5,h6,p,blockquote,a,li{
-	font-family:Georgia;
-}
-.dropcap:first-letter {
-  float: left;
-  font-size: 72px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
- }
+
+@import "baselinegrid";
 
 /*------------------------
 Header / Nav
@@ -205,59 +167,8 @@ a:hover .arrow-left, button:hover .arrow-left {
 Set Up The Grid
 --------------------*/
 
+@import "layout";
 
-/*Grid from Adam Kaplan adamkaplan.me*/
-.container {
-  margin: 0 auto;
-  height:100%;
-  width: 90%;
-  max-width:65rem;
-  position:relative;
-}
-.container-inner{
-  @extend .container;
-  max-width:60em;
-}
-.list-inner{
-  @extend .container;
-  max-width:40em;
-}
-.blog-container{
-  @extend .container;
-  max-width:50em;
-}
-@media (min-width: 40rem) {
-  .column {
-    float: left;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  .column:first-child{
-    padding-left:0em;
-  }
-
-  .column.full { width: 100%; }
-  .column.two-thirds { width: 66.7%; }
-  .column.half { width: 50%; }
-  .column.third { width: 33.3%; }
-  .column.fourth { width: 25%; }
-  .column.flow-opposite { float: right; }
-}
-
-/*Clearfix by @necolas*/
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
-}
 
 /* -------------------
 Page Layouts
@@ -344,35 +255,10 @@ Page Layouts
   padding-left:0em;
 }
 
-/*---------Projects------------*/
+/*-------------Blog--------------*/
 
-#holycross-hero{
-  background:url(../images/Mountain.jpg) no-repeat;
-   @include background-cover;
-   background-position:bottom;
-}
-#prosport-hero{
-  background:url(../images/prosport-hero.jpg) no-repeat;
-   @include background-cover;
-   background-position:bottom;
-}
-#ww-hero{
-  background:url(../images/ww-hero.jpg) no-repeat;
-  @include background-cover;
-  background-position:bottom;
-}
-/*Projects List & Blog*/
-
-#projects-hero{
-  background:url(../images/projects-hero.jpg) no-repeat;
-  @include background-cover;
-  background-position:bottom;
-}
-#blog-hero{
-  background:url(../images/ww-hero.jpg) no-repeat;
-  @include background-cover;
-  background-position:bottom;
-}
+/*list-hero is styling for the posts 
+& projects archive pages*/
 .list-hero{
   padding-top:3em;
   display:inline-block;
@@ -380,15 +266,19 @@ Page Layouts
   border-bottom:1px solid #D4D4D4;
   margin-bottom:2em;
 }
-
-/*-------------Blog--------------*/
 .blog{
-  padding-top:6em;
+  padding-top:3em;
   padding-bottom:3em;
-
+}
+.blog-post ol li{
+  font-size:1.25 em;
+}
+.title-space{
+  padding-top:6em;
+  margin-top:3em;
 }
 
-.blog.images{
+.images{
   padding-top:6em;
   padding-bottom:3em;
 }

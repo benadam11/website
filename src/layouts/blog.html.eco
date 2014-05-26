@@ -2,13 +2,11 @@
 layout: 'default'
 ---
 <section class="blog-post">
-	<div class="blog blog-container content">
-
-		<div class="center more-space">
+	<div class="center more-space title-space">
 			<h1><%- @document.title or @document.name %></h1>
-			<hr >
 			<div><a href="../Blog" class="btn"><span class="arrow-right">&larr;</span>Back to Blog</a></div>
 		</div>
+	<div class="blog blog-container content">
 
 		<%- @content %>
 

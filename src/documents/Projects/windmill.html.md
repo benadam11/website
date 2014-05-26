@@ -2,7 +2,7 @@
 layout: 'project'
 title: 'Windmill Winery'
 description: 'UI & UX design for Windmill Winery'
-roles: 'Roles: UI / UX / Art Direction'
+roles: 'Agency: Blinktank <br>Roles: UI / UX / Art Direction'
 logo: 'ww-logo.svg'
 logoSize: '80px'
 bg: 'ww-hero.jpg'
