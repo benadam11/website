@@ -1,0 +1,38 @@
+---
+layout: 'default'
+---
+<section class="hero" style="
+	background:url(../assets/images/<%- @document.bg %>) no-repeat center bottom; 
+	background-cover:-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+	<img class="hero-logo" style="max-height: <%- @document.logoSize %>;" src="../assets/images/<%- @document.logo %>">
+</section>
+
+<div class="more-space"></div>
+
+<section class="content">
+	<div class="container">
+		<div class="row clearfix">
+			<div class="column third space">
+				<h2><%- @document.title %></h2>
+				<h3><%- @document.roles %></h3>
+				<a href="<%-@site.url%>/Projects_List" class="btn"><span class="arrow-right">&larr;</span>Back to projects</a>
+			</div>
+			<div class="column third">
+				<p class="column-text"><%- @document.p1 %></p>
+			</div>
+			<div class="column third">
+				<p class="column-text"><%- @document.p2 %> </p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="images">
+	<div class="container-inner">
+		<%- @content %>
+	</div>
+</section>
+s
