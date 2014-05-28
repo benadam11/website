@@ -3,6 +3,7 @@ layout: 'blog'
 title: 'Welcome to my new site!'
 description: 'Here are some of the inside tips on how I built my site. '
 ---
+![Process Photo](../assets/images/Process.jpg)
 
 ### Two thumbs up for DocPad
 

@@ -17,7 +17,7 @@ layout: 'default'
 		<div class="row clearfix">
 			<div class="column third space">
 				<h2><%- @document.title %></h2>
-				<h3><%- @document.roles %></h3>
+				<h4><%- @document.roles %></h4>
 				<a href="<%-@site.url%>/Projects_List" class="btn"><span class="arrow-right">&larr;</span>Back to projects</a>
 			</div>
 			<div class="column third">

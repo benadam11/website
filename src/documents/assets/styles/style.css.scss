@@ -89,6 +89,12 @@ Header / Nav
   padding-left:3em;
 }
 @media (min-width: 20rem) and (max-width: 40rem){
+  .list-item{
+  float:left;
+  padding-left:2em;
+}
+}
+@media (min-width: 20rem) and (max-width: 40rem){
   .list-item:first-child{padding-left:0em;}
 }
 .list-item{
@@ -200,22 +206,23 @@ Page Layouts
 /*---------Home Page------------*/
 
 #home-page{
-  background:url(../images/home-hero.jpg);
-  @include background-cover;
+/*  background:url(../images/home-hero.jpg) no-repeat center top;
+  @include background-cover; */
   width:100%;
   position:relative;
 }
 #hero-copy{
-  padding-top:23em;
-  color:#fff;
+  padding-top:16em;
+
 }
 
 #hero-copy{
   h1{
-    font-size:72px;
+    font-size:80px;
+    margin-bottom: .25em;
   }
   h3{
-    font-size:24px;
+    font-size:42px;
   }
 }
 
@@ -257,7 +264,7 @@ Page Layouts
 
 /*-------------Blog--------------*/
 
-/*list-hero is styling for the posts 
+/*list-hero is styling for the posts
 & projects archive pages*/
 .list-hero{
   padding-top:3em;
