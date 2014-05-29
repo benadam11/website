@@ -64,8 +64,13 @@ Header / Nav
   position:relative;
   z-index:1000;
 }
-@media (min-width: 20rem) and (max-width: 40rem){
-  #header{text-align:left;}
+@media (min-width: 20rem) and (max-width: 30rem){
+  #header{
+    text-align:center;
+    border-bottom:1px solid #D4D4D4;
+    padding-top:2em;
+    padding-bottom:2em;
+  }
 }
 .site-logo{
   background: url(../images/logo.png)no-repeat;
@@ -181,7 +186,7 @@ Page Layouts
 --------------------*/
 
 .hero{
-  background: #eef2f5;
+  background: #F5F5F5;
   overflow: hidden;
   width:100%;
   min-height:600px;
@@ -191,6 +196,7 @@ Page Layouts
   position:relative;
   z-index: 0;
 }
+
 .hero-logo{
   margin: auto;
   padding-left:1em;
@@ -211,6 +217,11 @@ Page Layouts
   width:100%;
   position:relative;
 }
+@media (min-width: 20rem) and (max-width: 30rem){
+  #home-page{
+    display:none;
+  }
+}
 #hero-copy{
   padding-top:16em;
 
@@ -218,18 +229,23 @@ Page Layouts
 
 #hero-copy{
   h1{
-    font-size:80px;
+    font-size:7em;
     margin-bottom: .25em;
   }
   h3{
-    font-size:42px;
+    font-size:3em;
   }
 }
 
 #intro{
   padding-bottom:8em;
 }
-
+@media (min-width: 20rem) and (max-width: 30rem){
+  #intro{
+  padding-top:4em;
+  padding-bottom:2em;
+}
+}
 #quote{
   border-top:1px solid #D4D4D4;
   border-bottom:1px solid #D4D4D4;
@@ -239,9 +255,26 @@ Page Layouts
   padding-right:1em;
   margin-bottom:8em;
 }
+@media (min-width: 20rem) and (max-width: 30rem){
+  #quote{
+  border-top:1px solid #D4D4D4;
+  border-bottom:1px solid #D4D4D4;
+  padding-top:2em;
+  padding-left:1em;
+  padding-bottom:2em;
+  padding-right:1em;
+  margin-bottom:4em;
+}
+}
 #lists{
   margin-bottom:8em;
 }
+@media (min-width: 20rem) and (max-width: 30rem){
+  #lists{
+  margin-bottom:2em;
+}
+}
+
 #lists{
   h2{
     padding-bottom:1em;
@@ -261,6 +294,11 @@ Page Layouts
 #recent-posts{
   padding-left:0em;
 }
+@media (min-width: 20rem) and (max-width: 30rem){
+  #recent-posts{
+    padding-top:6em;
+  }
+}
 
 /*-------------Blog--------------*/
 
@@ -272,6 +310,12 @@ Page Layouts
   padding-bottom: 1em;
   border-bottom:1px solid #D4D4D4;
   margin-bottom:2em;
+}
+@media (min-width: 20rem) and (max-width: 30rem){
+  .list-hero{
+  padding-top:1em;
+  margin-bottom:1em;
+}
 }
 .blog{
   padding-top:3em;

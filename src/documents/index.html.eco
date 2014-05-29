@@ -20,7 +20,7 @@ layout: 'default'
 				<p class="column-text">I currently am working as a content strategist at <a href="http://strongmind.com" class="orange" target="_blank">StrongMind</a>, which is where my passion for design, development and writing all converge. Outside of work I have a great wife, the Suns, Diamondbacks, Cardinals, ASU and a cat (obviously). I am currently accepting some freelance front-end development work, so if you have a project, don’t hesitate to get in touch.</p>
 			</div>
 		</div>
-		<a href="#" class="btn">Get in touch <span class="arrow">&rarr;</span> </a>
+		<a href="mailto:benjamin.mark.adam@gmail.com" class="btn" target="_blank">Get in touch <span class="arrow">&rarr;</span> </a>
 	</div>
 </section>
 
