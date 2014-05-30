@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			url: "benadam11.github.io"
+			url: "http://benadam.me"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -123,7 +123,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: false
+					url: "http://benadam.me"
 
 
 	# =================================
