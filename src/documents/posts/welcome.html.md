@@ -1,7 +1,7 @@
 ---
 layout: 'blog'
 title: 'Welcome to my new site!'
-description: 'My process for designing and building this site'
+description: 'My process for designing and building this site.'
 ---
 ![Process Photo](../assets/images/Process.jpg)
 
