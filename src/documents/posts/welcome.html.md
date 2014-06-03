@@ -20,7 +20,7 @@ After developing rough versions of the pages in Sketch, I jumped straight into b
 
 ##The Technology
 
-One of the goals I had for this project was to learn a new tool called [Docpad](http://www.docpad.org/) Essentially Docpad is a tool for building any type of web application.  It uses node.js to do the dirty work of compliling sass, coffeescript, and eco templates into static pages. Simply put ... it's amazing. You can see the source code for my site on [Github](https://github.com/benadam11/website).  
+One of the goals I had for this project was to learn a new tool called [Docpad](http://www.docpad.org/). Essentially Docpad is a tool for building any type of web application.  It uses node.js to do the dirty work of compliling sass, coffeescript, and eco templates into static pages. Simply put ... it's amazing. You can see the source code for my site on [Github](https://github.com/benadam11/website).  
 
 I build the page templates using Eco Templates (which is available to docpad via plugins).  The pages and posts contain YAML metadata which define the the template, and different data available to the page via eco.  Then the content of the page is written in Markdown, making it easy to manage content. 
 
