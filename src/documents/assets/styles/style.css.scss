@@ -282,7 +282,7 @@ Page Layouts
   }
 }
 .line{
-  min-height:400px;
+  min-height:450px;
   border-top:1px solid #D4D4D4;
   border-bottom:1px solid #D4D4D4;
   padding-top:4em;
@@ -321,6 +321,12 @@ Page Layouts
   padding-top:3em;
   padding-bottom:3em;
 }
+.blog{
+  a{
+    color:$orange;
+  }
+}
+
 .blog-post ol li{
   font-size:1.25 em;
 }
