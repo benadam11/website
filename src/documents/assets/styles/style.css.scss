@@ -83,7 +83,8 @@ Header / Nav
 @media (min-width: 20rem) and (max-width: 40rem){
   .site-logo{display:none;}
 }
-#header-nav-menu{
+#header-nav-menu,
+.sub-menu{
   float:right;
   padding-top:1em;
 }
@@ -91,7 +92,8 @@ Header / Nav
 @media (min-width: 20rem) and (max-width: 40rem){
   #header-nav{display:inline-block;}
 }
-.list-item{
+.list-item,
+.sub-menu li{
   float:left;
   padding-left:3em;
 }

@@ -42,8 +42,7 @@
 
   ga('create', 'UA-51618306-1', 'benadam.me');
   ga('send', 'pageview');
-
-</script>
+	</script>
 
 <!--End Google Analytics-->
 
@@ -56,16 +55,17 @@
 						<li class="list-item"><a href="<%-@site.url%>">Home</a></li>
 						<li class="list-item"><a  href="<%-@site.url%>/Projects_List">Projects</a></li>
 						<li class="list-item"><a  href="<%-@site.url%>/Blog">Blog</a></li>
-						<li class="list-item">
+						<li class="list-item" id="social-hover">
 							<a  href="#">Social</a>
-							<ul class ="sub-menu">
-								<li><a href="#"></a></li>
-								<li></li>
-								<li><a href="#"></a></li>
-								<li></li>
-								<li><a href="#"></a></li>
-								<li></li>
-							</ul>
+							<!--<ul class ="sub-menu">
+								<li><a href="#">T</a></li>
+								<li>/</li>
+								<li><a href="#">M</a></li>
+								<li>/</li>
+								<li><a href="#">D</a></li>
+								<li>/</li>
+								<li><a href="#">D</a></li>
+							</ul>-->
 						</li>
 					</ul>
 				</nav>

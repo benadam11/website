@@ -123,7 +123,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: "http://benadam.me"
+					url: false
 
 
 	# =================================
