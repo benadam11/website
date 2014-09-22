@@ -49,6 +49,7 @@ img{
 #footer{
   text-align:center;
   border-top:1px solid #D4D4D4;
+  border-bottom: .5em solid $grey;
   padding-top:3em;
   padding-bottom:2em;
   margin-top:3em;
@@ -62,6 +63,7 @@ Header / Nav
 -------------------------*/
 
 #header{
+  border-top: .5em solid $grey;
   padding-top:4em;
   position:relative;
   z-index:1000;
