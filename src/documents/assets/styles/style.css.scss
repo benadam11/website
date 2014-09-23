@@ -77,7 +77,7 @@ Header / Nav
   }
 }
 .site-logo{
-  background: url(../images/logo.png)no-repeat;
+  background: url(../images/logo.svg)no-repeat;
   height:42px;
   width:42px;
   float:left;
@@ -306,7 +306,13 @@ Page Layouts
     padding-top:6em;
   }
 }
-
+.social-icon{
+  display:none;
+}
+.list-item.social-icon a:hover{
+  border-bottom: none;
+  color: $orange;
+}
 /*-------------Blog--------------*/
 
 /*list-hero is styling for the posts
