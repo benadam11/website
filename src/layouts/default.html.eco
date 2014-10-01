@@ -55,11 +55,11 @@
 						<li class="list-item"><a href="<%-@site.url%>">Home</a></li>
 						<li class="list-item"><a  href="<%-@site.url%>/Projects_List">Projects</a></li>
 						<li class="list-item"><a  href="<%-@site.url%>/Blog">Blog</a></li>
-						<li class="list-item" id="social-hover"><a  href="javascript:void(0)">Social</a></li>
+						<li class="list-item" id="social-click"><a  href="javascript:void(0)">Social</a></li>
 						<li class="list-item social-icon"><a  href="https://medium.com/@benadam11" target ="_blank">M</a></li>
 						<li class="list-item social-icon"><a  href="https://twitter.com/benadam11" target ="_blank"><i class="fa fa-twitter"></i></a></li>
 						<li class="list-item social-icon"><a  href="https://dribbble.com/benadam11" target ="_blank"><i class="fa fa-dribbble"></i></a></li>
-						<li class="list-item social-icon"><a  href="https://www.behance.net/badam11" target ="_blank"><i class="fa fa-behance"></i></a></li>
+						<li class="list-item social-icon"><a  href="https://github.com/benadam11" target ="_blank"><i class="fa fa-github"></i></a></li>
 					</ul>
 				</nav>
 			</div>

@@ -5,7 +5,7 @@ layout: 'default'
 <section class="hero" id="home-page">
 	<div class="container-inner content" id="hero-copy">
 		<h1>Ben Adam</h1>
-		<h3>UI/UX <br> Front-End Development<br>Copywriting</h3>
+		<h3>UI/UX <br> Front-End Development<br>Prototyping</h3>
 	</div>
 </section>
 
@@ -17,7 +17,7 @@ layout: 'default'
 				<p class="column-text dropcap">My name is Ben, and as a relatively young professional, I have had the opportunity to work with several agencies, including one I started out of college.  While it may not have been the best idea to start a business with no industry or business experience, the two years I spent pursuing <a href="http://blinktank.me" class="orange" target="_blank">Blinktank</a> taught me a great deal about business and using design to solve problems.</p>
 			</div>
 			<div class="column half">
-				<p class="column-text">I currently am working as a content strategist at <a href="http://strongmind.com" class="orange" target="_blank">StrongMind</a>, which is where my passion for design, development and writing all converge. Outside of work I have a great wife, the Suns, Diamondbacks, Cardinals, ASU and a cat (obviously). I am currently accepting some freelance front-end development work, so if you have a project, don’t hesitate to get in touch.</p>
+				<p class="column-text">I currently am working as a UX Designer at <a href="http://strongmind.com" class="orange" target="_blank">LaneTerralever</a>, which is where my passion for design and development converge. See my previous work history on <a href="https://www.linkedin.com/profile/view?id=99755347" class="orange" target="_blank">LinkedIn</a>. Outside of work I have a beautiful wife and cat (obviously) and I am currently accepting some freelance front-end development work, so if you have a project, don’t hesitate to get in touch.</p>
 			</div>
 		</div>
 		<a href="mailto:benjamin.mark.adam@gmail.com" class="btn" target="_blank">Get in touch <span class="arrow">&rarr;</span> </a>

@@ -60,6 +60,9 @@ docpadConfig = {
 	      deployRemote: 'target'
 	      deployBranch: 'master'
 
+      livereload:
+      	enabled: false
+
 		# -----------------------------
 		# Helper Functions
 		# Helpers
@@ -123,7 +126,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: false
+					url: 'http://benadam.me/'
 
 
 	# =================================
